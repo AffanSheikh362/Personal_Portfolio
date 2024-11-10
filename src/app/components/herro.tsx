@@ -32,7 +32,7 @@ export default function Hero(){
                  <span className="flex "><MapPin className="mr-2"/>Karachi, Pakistan</span>
                  <span className="flex items-center"><GoDotFill className="text-green-500 text-2xl  mr-2"/>Available for new projects</span>
                  </div>
-                 <span className="flex items-center space-x-5 "><Link href={"https://github.com/MUZAFFARALIKALWAR"}><FiGithub className="text-gray-900 text-2xl md:text-3xl cursor-pointer transition-transform duration-500 hover:scale-105"/></Link><Link href={"https://www.linkedin.com/in/muzaffar-ali-0b3939315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"}><FaLinkedin className="text-blue-700 text-2xl md:text-3xl cursor-pointer transition-transform duration-500 hover:scale-105"/></Link><Link href={"https://youtube.com/@muzaffaritacademy?si=SuG4RIRxpEh2Z2qA"}><IoLogoYoutube className="text-red-500 text-2xl md:text-3xl cursor-pointer transition-transform duration-500 hover:scale-105"/></Link></span>
+                 <span className="flex items-center space-x-5 "><Link href={"https://github.com/AffanSheikh362"}><FiGithub className="text-gray-900 text-2xl md:text-3xl cursor-pointer transition-transform duration-500 hover:scale-105"/></Link><Link href={"https://www.linkedin.com/in/affan-sheikh-45b16a24b/"}><FaLinkedin className="text-blue-700 text-2xl md:text-3xl cursor-pointer transition-transform duration-500 hover:scale-105"/></Link><Link href={"https://www.youtube.com/@AIWeb3.0MetaverseTutionClasses"}><IoLogoYoutube className="text-red-500 text-2xl md:text-3xl cursor-pointer transition-transform duration-500 hover:scale-105"/></Link></span>
                  </div>
             </div>
         </main>
