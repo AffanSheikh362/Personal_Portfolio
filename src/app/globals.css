@@ -1,0 +1,168 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #F5F5F5;
+}
+
+
+.intro::after{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  bottom: 0px;
+  background-color: black;
+  left: 0;
+  margin-top: 18px;
+  animation-name: lineanime;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  /* animation-fill-mode: backwards; */
+  animation-direction: alternate;
+}
+@media screen and (min-width:0px) and (max-width:750px) {
+  
+@keyframes lineanime {
+  0%{
+    width: 0;
+    left: 4px;
+  }  
+  50%{
+    width: 75%;
+    left: 4px;
+  }
+  100%{
+    width: 0;
+    left: 75%;
+  }
+}
+}
+@media screen and (min-width:750px) {
+@keyframes lineanime {
+  0%{
+    width: 0;
+    left: 0;
+  }  
+  50%{
+    width: 52%;
+    left: 0;
+  }
+  100%{
+    width: 0;
+    left: 52%;
+  }
+} 
+}
+  /* box animation */
+@media screen and (min-width:0px) and (max-width:750px){
+
+.box-animation{
+  animation-name: move;
+  animation-duration: 10s;
+  animation-delay: 3s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes move {
+  0%{
+     left: 0px;
+     top: 0px;
+     background-color: gray;
+     rotate: 0deg;
+  } 
+  100%{
+    left: 42%;
+    top: 0px;
+    background-color: black;
+    /* rotate: 360deg; */
+  }
+
+} 
+}
+/* box animation */
+@media screen and (min-width:750px){
+.box-animation{
+  animation-name: move;
+  animation-duration: 10s;
+  animation-delay: 3s;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+@keyframes move {
+  0%{
+     left: 0px;
+     top: 0px;
+     background-color: gray;
+     rotate: 0deg;
+  } 
+  100%{
+    left: 83%;
+    top: 0px;
+    background-color: black;
+    /* rotate: 360deg; */
+  }
+
+} }
+
+/* BOX2 */
+ /* box animation */
+ @media screen and (min-width:0px) and (max-width:750px){
+
+  .box2-animation{
+    animation-name: box2;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+  @keyframes box2 {
+    0%{
+      right: 0px;
+       bottom: 0px;
+       background-color: gray;
+       rotate: 0deg;
+    } 
+    100%{
+      right: 42%;
+      bottom: 0px;
+      background-color: black;
+      /* rotate: 360deg; */
+    }
+  
+  } 
+  }
+
+@media screen and (min-width:750px){
+  .box2-animation{
+    animation-name: box2;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+  }
+
+@keyframes box2 {
+  0%{
+     right: 0px;
+     bottom: 0px;
+     background-color: gray;
+     /* rotate: 0deg; */
+  } 
+  100%{
+    right: 83%;
+    bottom: 0px;
+    background-color: black;
+    /* rotate: 360deg; */
+  }
+
+} }
